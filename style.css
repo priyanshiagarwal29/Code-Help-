@@ -1,0 +1,116 @@
+.body{
+    overflow: hidden;
+    height: 100%;
+   
+    margin: 0;
+    padding: 0;
+}
+
+.box
+{
+ 
+    width: 90vw;
+   /* display: flex;
+   justify-content: center; */
+   overflow: auto;
+   background-image: url(white-straw-seamless-pattern-light-gradient-lines-repeating-texture-180940250.webp);
+}
+.cardbox{
+    width:80wv;
+height: 50%;
+    padding-left: 10rex;
+    row-gap:2.5em;
+    overflow: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    column-gap:0.3rem ;
+}
+
+.header h1{
+    margin: 0;
+    font-style: oblique ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 5px rgb(151, 149, 145);
+   display: flex;
+   justify-content: center;
+}
+.headerline {
+   
+    display: flex;
+   justify-content: center;
+   margin-top: 0;
+  text-decoration-color: wheat;
+
+}
+.content{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: rgb(36, 35, 35);
+font-size: 0.6rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: inherit;
+}
+a{
+    text-decoration: none;
+}
+
+.card1{
+    height: 15vh;
+    row-gap: 2rem;
+    border-color: black;
+    border-style: solid;
+    width: 18vw;
+   height: min-content;
+    display: flex;
+   flex-direction: column;
+   border-top-left-radius: 4%;
+   border-top-right-radius: 4%;
+   border-bottom-left-radius: 4%;
+   border-bottom-right-radius: 4%;
+
+
+}
+.card1 :hover.cardimage{
+    transform: scale(1.1);
+    transition: duration 200ms; ;
+}
+.cardimage{
+    object-fit:cover;
+    height:33vh;
+    width: 100%;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.authorimage{
+    height:4vh ;
+    width: 4vw;
+}
+.author{
+    display: flex;
+    justify-content: row;
+
+}
+.header,.headerline{
+    margin: 0;
+    padding: 0;
+}
+.cardtag{
+    display: flex;
+   align-items:  center;
+}
+.name{
+    color: blue;
+}
+.headerline p{
+    font-size: larger;
+    font-weight:bolder;
+    color: rgb(174, 111, 27);
+}
+.content{
+    font-size: small;
+    color: rgb(23, 182, 213);
+}
